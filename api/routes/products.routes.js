@@ -4,8 +4,8 @@ const {
 } = require("../controllers/products.controllers");
 const router = require("express").Router();
 
-router.get("/api", getAllProducts);
-router.post("/api", createProducts);
+router.get("/products", getAllProducts);
+router.post("/products", createProducts);
 
 
 module.exports = router;

@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use('/product', productRoutes)
+app.use('/api', productRoutes)
 
 app.listen(3000);
 console.log("Server is running on port 3000");
